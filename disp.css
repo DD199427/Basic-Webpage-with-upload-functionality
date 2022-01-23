@@ -1,0 +1,44 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-family: "SIMPSON";
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.output {
+    background: center/cover no-repeat url('/media/cc0-images/hamster.jpg');
+    position: relative;
+}
